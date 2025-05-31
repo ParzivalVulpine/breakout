@@ -1,0 +1,1107 @@
+[gd_scene load_steps=4 format=3 uid="uid://da7ghwr28gchf"]
+
+[ext_resource type="Script" uid="uid://b1a6newvkfdb0" path="res://breakout_main_controller.gd" id="1_828it"]
+[ext_resource type="Script" uid="uid://w2mhyd2ppe28" path="res://blocks_controller.gd" id="2_tfkgp"]
+[ext_resource type="PackedScene" uid="uid://c1m01nwnh1t7i" path="res://block.tscn" id="3_tfkgp"]
+
+[node name="BreakoutMain" type="Node2D"]
+script = ExtResource("1_828it")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.219501, 0.219501, 0.219501, 1)
+
+[node name="Blocks" type="Node2D" parent="."]
+position = Vector2(1, 0)
+script = ExtResource("2_tfkgp")
+scene_to_instantiate = ExtResource("3_tfkgp")
+grid_width = 18
+grid_height = 20
+cell_spacing = Vector2(110, 30)
+
+[node name="GridItem_0_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+
+[node name="GridItem_1_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 0)
+
+[node name="GridItem_2_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 0)
+
+[node name="GridItem_3_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 0)
+
+[node name="GridItem_4_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 0)
+
+[node name="GridItem_5_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 0)
+
+[node name="GridItem_6_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 0)
+
+[node name="GridItem_7_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 0)
+
+[node name="GridItem_8_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 0)
+
+[node name="GridItem_9_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 0)
+
+[node name="GridItem_10_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 0)
+
+[node name="GridItem_11_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 0)
+
+[node name="GridItem_12_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 0)
+
+[node name="GridItem_13_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 0)
+
+[node name="GridItem_14_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 0)
+
+[node name="GridItem_15_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 0)
+
+[node name="GridItem_16_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 0)
+
+[node name="GridItem_17_0" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 0)
+
+[node name="GridItem_0_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 30)
+
+[node name="GridItem_1_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 30)
+
+[node name="GridItem_2_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 30)
+
+[node name="GridItem_3_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 30)
+
+[node name="GridItem_4_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 30)
+
+[node name="GridItem_5_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 30)
+
+[node name="GridItem_6_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 30)
+
+[node name="GridItem_7_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 30)
+
+[node name="GridItem_8_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 30)
+
+[node name="GridItem_9_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 30)
+
+[node name="GridItem_10_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 30)
+
+[node name="GridItem_11_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 30)
+
+[node name="GridItem_12_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 30)
+
+[node name="GridItem_13_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 30)
+
+[node name="GridItem_14_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 30)
+
+[node name="GridItem_15_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 30)
+
+[node name="GridItem_16_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 30)
+
+[node name="GridItem_17_1" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 30)
+
+[node name="GridItem_0_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 60)
+
+[node name="GridItem_1_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 60)
+
+[node name="GridItem_2_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 60)
+
+[node name="GridItem_3_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 60)
+
+[node name="GridItem_4_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 60)
+
+[node name="GridItem_5_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 60)
+
+[node name="GridItem_6_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 60)
+
+[node name="GridItem_7_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 60)
+
+[node name="GridItem_8_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 60)
+
+[node name="GridItem_9_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 60)
+
+[node name="GridItem_10_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 60)
+
+[node name="GridItem_11_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 60)
+
+[node name="GridItem_12_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 60)
+
+[node name="GridItem_13_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 60)
+
+[node name="GridItem_14_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 60)
+
+[node name="GridItem_15_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 60)
+
+[node name="GridItem_16_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 60)
+
+[node name="GridItem_17_2" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 60)
+
+[node name="GridItem_0_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 90)
+
+[node name="GridItem_1_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 90)
+
+[node name="GridItem_2_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 90)
+
+[node name="GridItem_3_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 90)
+
+[node name="GridItem_4_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 90)
+
+[node name="GridItem_5_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 90)
+
+[node name="GridItem_6_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 90)
+
+[node name="GridItem_7_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 90)
+
+[node name="GridItem_8_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 90)
+
+[node name="GridItem_9_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 90)
+
+[node name="GridItem_10_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 90)
+
+[node name="GridItem_11_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 90)
+
+[node name="GridItem_12_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 90)
+
+[node name="GridItem_13_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 90)
+
+[node name="GridItem_14_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 90)
+
+[node name="GridItem_15_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 90)
+
+[node name="GridItem_16_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 90)
+
+[node name="GridItem_17_3" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 90)
+
+[node name="GridItem_0_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 120)
+
+[node name="GridItem_1_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 120)
+
+[node name="GridItem_2_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 120)
+
+[node name="GridItem_3_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 120)
+
+[node name="GridItem_4_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 120)
+
+[node name="GridItem_5_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 120)
+
+[node name="GridItem_6_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 120)
+
+[node name="GridItem_7_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 120)
+
+[node name="GridItem_8_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 120)
+
+[node name="GridItem_9_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 120)
+
+[node name="GridItem_10_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 120)
+
+[node name="GridItem_11_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 120)
+
+[node name="GridItem_12_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 120)
+
+[node name="GridItem_13_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 120)
+
+[node name="GridItem_14_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 120)
+
+[node name="GridItem_15_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 120)
+
+[node name="GridItem_16_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 120)
+
+[node name="GridItem_17_4" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 120)
+
+[node name="GridItem_0_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 150)
+
+[node name="GridItem_1_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 150)
+
+[node name="GridItem_2_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 150)
+
+[node name="GridItem_3_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 150)
+
+[node name="GridItem_4_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 150)
+
+[node name="GridItem_5_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 150)
+
+[node name="GridItem_6_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 150)
+
+[node name="GridItem_7_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 150)
+
+[node name="GridItem_8_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 150)
+
+[node name="GridItem_9_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 150)
+
+[node name="GridItem_10_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 150)
+
+[node name="GridItem_11_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 150)
+
+[node name="GridItem_12_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 150)
+
+[node name="GridItem_13_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 150)
+
+[node name="GridItem_14_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 150)
+
+[node name="GridItem_15_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 150)
+
+[node name="GridItem_16_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 150)
+
+[node name="GridItem_17_5" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 150)
+
+[node name="GridItem_0_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 180)
+
+[node name="GridItem_1_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 180)
+
+[node name="GridItem_2_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 180)
+
+[node name="GridItem_3_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 180)
+
+[node name="GridItem_4_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 180)
+
+[node name="GridItem_5_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 180)
+
+[node name="GridItem_6_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 180)
+
+[node name="GridItem_7_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 180)
+
+[node name="GridItem_8_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 180)
+
+[node name="GridItem_9_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 180)
+
+[node name="GridItem_10_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 180)
+
+[node name="GridItem_11_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 180)
+
+[node name="GridItem_12_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 180)
+
+[node name="GridItem_13_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 180)
+
+[node name="GridItem_14_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 180)
+
+[node name="GridItem_15_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 180)
+
+[node name="GridItem_16_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 180)
+
+[node name="GridItem_17_6" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 180)
+
+[node name="GridItem_0_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 210)
+
+[node name="GridItem_1_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 210)
+
+[node name="GridItem_2_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 210)
+
+[node name="GridItem_3_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 210)
+
+[node name="GridItem_4_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 210)
+
+[node name="GridItem_5_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 210)
+
+[node name="GridItem_6_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 210)
+
+[node name="GridItem_7_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 210)
+
+[node name="GridItem_8_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 210)
+
+[node name="GridItem_9_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 210)
+
+[node name="GridItem_10_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 210)
+
+[node name="GridItem_11_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 210)
+
+[node name="GridItem_12_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 210)
+
+[node name="GridItem_13_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 210)
+
+[node name="GridItem_14_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 210)
+
+[node name="GridItem_15_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 210)
+
+[node name="GridItem_16_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 210)
+
+[node name="GridItem_17_7" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 210)
+
+[node name="GridItem_0_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 240)
+
+[node name="GridItem_1_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 240)
+
+[node name="GridItem_2_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 240)
+
+[node name="GridItem_3_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 240)
+
+[node name="GridItem_4_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 240)
+
+[node name="GridItem_5_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 240)
+
+[node name="GridItem_6_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 240)
+
+[node name="GridItem_7_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 240)
+
+[node name="GridItem_8_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 240)
+
+[node name="GridItem_9_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 240)
+
+[node name="GridItem_10_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 240)
+
+[node name="GridItem_11_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 240)
+
+[node name="GridItem_12_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 240)
+
+[node name="GridItem_13_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 240)
+
+[node name="GridItem_14_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 240)
+
+[node name="GridItem_15_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 240)
+
+[node name="GridItem_16_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 240)
+
+[node name="GridItem_17_8" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 240)
+
+[node name="GridItem_0_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 270)
+
+[node name="GridItem_1_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 270)
+
+[node name="GridItem_2_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 270)
+
+[node name="GridItem_3_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 270)
+
+[node name="GridItem_4_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 270)
+
+[node name="GridItem_5_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 270)
+
+[node name="GridItem_6_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 270)
+
+[node name="GridItem_7_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 270)
+
+[node name="GridItem_8_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 270)
+
+[node name="GridItem_9_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 270)
+
+[node name="GridItem_10_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 270)
+
+[node name="GridItem_11_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 270)
+
+[node name="GridItem_12_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 270)
+
+[node name="GridItem_13_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 270)
+
+[node name="GridItem_14_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 270)
+
+[node name="GridItem_15_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 270)
+
+[node name="GridItem_16_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 270)
+
+[node name="GridItem_17_9" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 270)
+
+[node name="GridItem_0_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 300)
+
+[node name="GridItem_1_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 300)
+
+[node name="GridItem_2_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 300)
+
+[node name="GridItem_3_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 300)
+
+[node name="GridItem_4_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 300)
+
+[node name="GridItem_5_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 300)
+
+[node name="GridItem_6_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 300)
+
+[node name="GridItem_7_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 300)
+
+[node name="GridItem_8_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 300)
+
+[node name="GridItem_9_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 300)
+
+[node name="GridItem_10_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 300)
+
+[node name="GridItem_11_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 300)
+
+[node name="GridItem_12_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 300)
+
+[node name="GridItem_13_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 300)
+
+[node name="GridItem_14_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 300)
+
+[node name="GridItem_15_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 300)
+
+[node name="GridItem_16_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 300)
+
+[node name="GridItem_17_10" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 300)
+
+[node name="GridItem_0_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 330)
+
+[node name="GridItem_1_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 330)
+
+[node name="GridItem_2_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 330)
+
+[node name="GridItem_3_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 330)
+
+[node name="GridItem_4_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 330)
+
+[node name="GridItem_5_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 330)
+
+[node name="GridItem_6_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 330)
+
+[node name="GridItem_7_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 330)
+
+[node name="GridItem_8_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 330)
+
+[node name="GridItem_9_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 330)
+
+[node name="GridItem_10_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 330)
+
+[node name="GridItem_11_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 330)
+
+[node name="GridItem_12_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 330)
+
+[node name="GridItem_13_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 330)
+
+[node name="GridItem_14_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 330)
+
+[node name="GridItem_15_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 330)
+
+[node name="GridItem_16_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 330)
+
+[node name="GridItem_17_11" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 330)
+
+[node name="GridItem_0_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 360)
+
+[node name="GridItem_1_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 360)
+
+[node name="GridItem_2_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 360)
+
+[node name="GridItem_3_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 360)
+
+[node name="GridItem_4_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 360)
+
+[node name="GridItem_5_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 360)
+
+[node name="GridItem_6_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 360)
+
+[node name="GridItem_7_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 360)
+
+[node name="GridItem_8_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 360)
+
+[node name="GridItem_9_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 360)
+
+[node name="GridItem_10_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 360)
+
+[node name="GridItem_11_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 360)
+
+[node name="GridItem_12_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 360)
+
+[node name="GridItem_13_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 360)
+
+[node name="GridItem_14_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 360)
+
+[node name="GridItem_15_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 360)
+
+[node name="GridItem_16_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 360)
+
+[node name="GridItem_17_12" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 360)
+
+[node name="GridItem_0_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 390)
+
+[node name="GridItem_1_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 390)
+
+[node name="GridItem_2_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 390)
+
+[node name="GridItem_3_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 390)
+
+[node name="GridItem_4_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 390)
+
+[node name="GridItem_5_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 390)
+
+[node name="GridItem_6_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 390)
+
+[node name="GridItem_7_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 390)
+
+[node name="GridItem_8_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 390)
+
+[node name="GridItem_9_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 390)
+
+[node name="GridItem_10_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 390)
+
+[node name="GridItem_11_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 390)
+
+[node name="GridItem_12_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 390)
+
+[node name="GridItem_13_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 390)
+
+[node name="GridItem_14_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 390)
+
+[node name="GridItem_15_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 390)
+
+[node name="GridItem_16_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 390)
+
+[node name="GridItem_17_13" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 390)
+
+[node name="GridItem_0_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 420)
+
+[node name="GridItem_1_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 420)
+
+[node name="GridItem_2_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 420)
+
+[node name="GridItem_3_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 420)
+
+[node name="GridItem_4_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 420)
+
+[node name="GridItem_5_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 420)
+
+[node name="GridItem_6_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 420)
+
+[node name="GridItem_7_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 420)
+
+[node name="GridItem_8_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 420)
+
+[node name="GridItem_9_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 420)
+
+[node name="GridItem_10_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 420)
+
+[node name="GridItem_11_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 420)
+
+[node name="GridItem_12_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 420)
+
+[node name="GridItem_13_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 420)
+
+[node name="GridItem_14_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 420)
+
+[node name="GridItem_15_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 420)
+
+[node name="GridItem_16_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 420)
+
+[node name="GridItem_17_14" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 420)
+
+[node name="GridItem_0_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 450)
+
+[node name="GridItem_1_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 450)
+
+[node name="GridItem_2_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 450)
+
+[node name="GridItem_3_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 450)
+
+[node name="GridItem_4_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 450)
+
+[node name="GridItem_5_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 450)
+
+[node name="GridItem_6_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 450)
+
+[node name="GridItem_7_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 450)
+
+[node name="GridItem_8_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 450)
+
+[node name="GridItem_9_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 450)
+
+[node name="GridItem_10_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 450)
+
+[node name="GridItem_11_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 450)
+
+[node name="GridItem_12_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 450)
+
+[node name="GridItem_13_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 450)
+
+[node name="GridItem_14_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 450)
+
+[node name="GridItem_15_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 450)
+
+[node name="GridItem_16_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 450)
+
+[node name="GridItem_17_15" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 450)
+
+[node name="GridItem_0_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 480)
+
+[node name="GridItem_1_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 480)
+
+[node name="GridItem_2_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 480)
+
+[node name="GridItem_3_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 480)
+
+[node name="GridItem_4_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 480)
+
+[node name="GridItem_5_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 480)
+
+[node name="GridItem_6_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 480)
+
+[node name="GridItem_7_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 480)
+
+[node name="GridItem_8_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 480)
+
+[node name="GridItem_9_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 480)
+
+[node name="GridItem_10_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 480)
+
+[node name="GridItem_11_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 480)
+
+[node name="GridItem_12_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 480)
+
+[node name="GridItem_13_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 480)
+
+[node name="GridItem_14_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 480)
+
+[node name="GridItem_15_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 480)
+
+[node name="GridItem_16_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 480)
+
+[node name="GridItem_17_16" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 480)
+
+[node name="GridItem_0_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 510)
+
+[node name="GridItem_1_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 510)
+
+[node name="GridItem_2_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 510)
+
+[node name="GridItem_3_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 510)
+
+[node name="GridItem_4_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 510)
+
+[node name="GridItem_5_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 510)
+
+[node name="GridItem_6_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 510)
+
+[node name="GridItem_7_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 510)
+
+[node name="GridItem_8_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 510)
+
+[node name="GridItem_9_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 510)
+
+[node name="GridItem_10_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 510)
+
+[node name="GridItem_11_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 510)
+
+[node name="GridItem_12_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 510)
+
+[node name="GridItem_13_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 510)
+
+[node name="GridItem_14_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 510)
+
+[node name="GridItem_15_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 510)
+
+[node name="GridItem_16_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 510)
+
+[node name="GridItem_17_17" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 510)
+
+[node name="GridItem_0_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 540)
+
+[node name="GridItem_1_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 540)
+
+[node name="GridItem_2_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 540)
+
+[node name="GridItem_3_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 540)
+
+[node name="GridItem_4_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 540)
+
+[node name="GridItem_5_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 540)
+
+[node name="GridItem_6_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 540)
+
+[node name="GridItem_7_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 540)
+
+[node name="GridItem_8_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 540)
+
+[node name="GridItem_9_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 540)
+
+[node name="GridItem_10_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 540)
+
+[node name="GridItem_11_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 540)
+
+[node name="GridItem_12_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 540)
+
+[node name="GridItem_13_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 540)
+
+[node name="GridItem_14_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 540)
+
+[node name="GridItem_15_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 540)
+
+[node name="GridItem_16_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 540)
+
+[node name="GridItem_17_18" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 540)
+
+[node name="GridItem_0_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(0, 570)
+
+[node name="GridItem_1_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(110, 570)
+
+[node name="GridItem_2_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(220, 570)
+
+[node name="GridItem_3_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(330, 570)
+
+[node name="GridItem_4_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(440, 570)
+
+[node name="GridItem_5_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(550, 570)
+
+[node name="GridItem_6_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(660, 570)
+
+[node name="GridItem_7_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(770, 570)
+
+[node name="GridItem_8_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(880, 570)
+
+[node name="GridItem_9_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(990, 570)
+
+[node name="GridItem_10_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1100, 570)
+
+[node name="GridItem_11_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1210, 570)
+
+[node name="GridItem_12_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1320, 570)
+
+[node name="GridItem_13_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1430, 570)
+
+[node name="GridItem_14_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1540, 570)
+
+[node name="GridItem_15_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1650, 570)
+
+[node name="GridItem_16_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1760, 570)
+
+[node name="GridItem_17_19" type="Node2D" parent="Blocks" instance=ExtResource("3_tfkgp")]
+position = Vector2(1870, 570)
