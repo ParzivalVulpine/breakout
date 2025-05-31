@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://uvp2h4duevqo"]
+[gd_scene load_steps=2 format=3 uid="uid://uvp2h4duevqo"]
+
+[ext_resource type="Script" uid="uid://by34x5cqovwhr" path="res://start_menu_controller.gd" id="1_jwbto"]
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -7,3 +9,53 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_jwbto")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.617534, 0.225287, 0.210951, 1)
+
+[node name="Title" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.3
+anchor_right = 0.3
+offset_right = 574.0
+offset_bottom = 105.0
+theme_override_font_sizes/font_size = 76
+text = "Breakout Game"
+
+[node name="ButtonContainer" type="VBoxContainer" parent="Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartGame" type="Button" parent="Background/ButtonContainer"]
+layout_mode = 2
+text = "Start Game
+"
+
+[node name="Options" type="Button" parent="Background/ButtonContainer"]
+layout_mode = 2
+text = "Options"
+
+[node name="Quit" type="Button" parent="Background/ButtonContainer"]
+layout_mode = 2
+text = "Quit
+"
+
+[connection signal="pressed" from="Background/ButtonContainer/Quit" to="." method="_on_quit_pressed"]
