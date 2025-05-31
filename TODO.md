@@ -1,0 +1,1 @@
+- Figure out how to remove the swap file warning from gvim command
