@@ -1,0 +1,3085 @@
+[gd_scene load_steps=4 format=3 uid="uid://da7ghwr28gchf"]
+
+[ext_resource type="Script" uid="uid://b1a6newvkfdb0" path="res://scripts/breakout_main_controller.gd" id="1_x2bug"]
+[ext_resource type="Script" uid="uid://w2mhyd2ppe28" path="res://scripts/blocks_controller.gd" id="2_2lkqs"]
+[ext_resource type="PackedScene" uid="uid://c1m01nwnh1t7i" path="res://scenes/objects/block.tscn" id="3_eltop"]
+
+[node name="BreakoutMain" type="Node2D"]
+script = ExtResource("1_x2bug")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.219501, 0.219501, 0.219501, 1)
+
+[node name="Blocks" type="Node2D" parent="."]
+position = Vector2(1, 0)
+script = ExtResource("2_2lkqs")
+scene_to_instantiate = ExtResource("3_eltop")
+grid_width = 17
+grid_height = 20
+cell_spacing = Vector2(110, 30)
+
+[node name="GridItem_0_0" parent="Blocks" instance=ExtResource("3_eltop")]
+
+[node name="GridItem_1_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 0)
+
+[node name="GridItem_2_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 0)
+
+[node name="GridItem_3_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 0)
+
+[node name="GridItem_4_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 0)
+
+[node name="GridItem_5_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 0)
+
+[node name="GridItem_6_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 0)
+
+[node name="GridItem_7_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 0)
+
+[node name="GridItem_8_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 0)
+
+[node name="GridItem_9_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 0)
+
+[node name="GridItem_10_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 0)
+
+[node name="GridItem_11_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 0)
+
+[node name="GridItem_12_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 0)
+
+[node name="GridItem_13_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 0)
+
+[node name="GridItem_14_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 0)
+
+[node name="GridItem_15_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 0)
+
+[node name="GridItem_16_0" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 0)
+
+[node name="GridItem_0_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 30)
+
+[node name="GridItem_1_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 30)
+
+[node name="GridItem_2_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 30)
+
+[node name="GridItem_3_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 30)
+
+[node name="GridItem_4_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 30)
+
+[node name="GridItem_5_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 30)
+
+[node name="GridItem_6_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 30)
+
+[node name="GridItem_7_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 30)
+
+[node name="GridItem_8_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 30)
+
+[node name="GridItem_9_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 30)
+
+[node name="GridItem_10_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 30)
+
+[node name="GridItem_11_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 30)
+
+[node name="GridItem_12_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 30)
+
+[node name="GridItem_13_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 30)
+
+[node name="GridItem_14_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 30)
+
+[node name="GridItem_15_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 30)
+
+[node name="GridItem_16_1" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 30)
+
+[node name="GridItem_0_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 60)
+
+[node name="GridItem_1_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 60)
+
+[node name="GridItem_2_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 60)
+
+[node name="GridItem_3_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 60)
+
+[node name="GridItem_4_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 60)
+
+[node name="GridItem_5_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 60)
+
+[node name="GridItem_6_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 60)
+
+[node name="GridItem_7_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 60)
+
+[node name="GridItem_8_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 60)
+
+[node name="GridItem_9_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 60)
+
+[node name="GridItem_10_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 60)
+
+[node name="GridItem_11_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 60)
+
+[node name="GridItem_12_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 60)
+
+[node name="GridItem_13_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 60)
+
+[node name="GridItem_14_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 60)
+
+[node name="GridItem_15_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 60)
+
+[node name="GridItem_16_2" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 60)
+
+[node name="GridItem_0_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 90)
+
+[node name="GridItem_1_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 90)
+
+[node name="GridItem_2_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 90)
+
+[node name="GridItem_3_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 90)
+
+[node name="GridItem_4_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 90)
+
+[node name="GridItem_5_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 90)
+
+[node name="GridItem_6_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 90)
+
+[node name="GridItem_7_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 90)
+
+[node name="GridItem_8_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 90)
+
+[node name="GridItem_9_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 90)
+
+[node name="GridItem_10_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 90)
+
+[node name="GridItem_11_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 90)
+
+[node name="GridItem_12_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 90)
+
+[node name="GridItem_13_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 90)
+
+[node name="GridItem_14_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 90)
+
+[node name="GridItem_15_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 90)
+
+[node name="GridItem_16_3" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 90)
+
+[node name="GridItem_0_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 120)
+
+[node name="GridItem_1_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 120)
+
+[node name="GridItem_2_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 120)
+
+[node name="GridItem_3_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 120)
+
+[node name="GridItem_4_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 120)
+
+[node name="GridItem_5_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 120)
+
+[node name="GridItem_6_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 120)
+
+[node name="GridItem_7_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 120)
+
+[node name="GridItem_8_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 120)
+
+[node name="GridItem_9_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 120)
+
+[node name="GridItem_10_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 120)
+
+[node name="GridItem_11_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 120)
+
+[node name="GridItem_12_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 120)
+
+[node name="GridItem_13_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 120)
+
+[node name="GridItem_14_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 120)
+
+[node name="GridItem_15_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 120)
+
+[node name="GridItem_16_4" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 120)
+
+[node name="GridItem_0_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 150)
+
+[node name="GridItem_1_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 150)
+
+[node name="GridItem_2_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 150)
+
+[node name="GridItem_3_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 150)
+
+[node name="GridItem_4_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 150)
+
+[node name="GridItem_5_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 150)
+
+[node name="GridItem_6_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 150)
+
+[node name="GridItem_7_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 150)
+
+[node name="GridItem_8_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 150)
+
+[node name="GridItem_9_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 150)
+
+[node name="GridItem_10_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 150)
+
+[node name="GridItem_11_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 150)
+
+[node name="GridItem_12_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 150)
+
+[node name="GridItem_13_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 150)
+
+[node name="GridItem_14_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 150)
+
+[node name="GridItem_15_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 150)
+
+[node name="GridItem_16_5" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 150)
+
+[node name="GridItem_0_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 180)
+
+[node name="GridItem_1_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 180)
+
+[node name="GridItem_2_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 180)
+
+[node name="GridItem_3_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 180)
+
+[node name="GridItem_4_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 180)
+
+[node name="GridItem_5_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 180)
+
+[node name="GridItem_6_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 180)
+
+[node name="GridItem_7_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 180)
+
+[node name="GridItem_8_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 180)
+
+[node name="GridItem_9_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 180)
+
+[node name="GridItem_10_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 180)
+
+[node name="GridItem_11_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 180)
+
+[node name="GridItem_12_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 180)
+
+[node name="GridItem_13_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 180)
+
+[node name="GridItem_14_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 180)
+
+[node name="GridItem_15_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 180)
+
+[node name="GridItem_16_6" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 180)
+
+[node name="GridItem_0_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 210)
+
+[node name="GridItem_1_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 210)
+
+[node name="GridItem_2_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 210)
+
+[node name="GridItem_3_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 210)
+
+[node name="GridItem_4_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 210)
+
+[node name="GridItem_5_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 210)
+
+[node name="GridItem_6_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 210)
+
+[node name="GridItem_7_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 210)
+
+[node name="GridItem_8_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 210)
+
+[node name="GridItem_9_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 210)
+
+[node name="GridItem_10_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 210)
+
+[node name="GridItem_11_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 210)
+
+[node name="GridItem_12_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 210)
+
+[node name="GridItem_13_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 210)
+
+[node name="GridItem_14_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 210)
+
+[node name="GridItem_15_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 210)
+
+[node name="GridItem_16_7" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 210)
+
+[node name="GridItem_0_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 240)
+
+[node name="GridItem_1_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 240)
+
+[node name="GridItem_2_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 240)
+
+[node name="GridItem_3_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 240)
+
+[node name="GridItem_4_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 240)
+
+[node name="GridItem_5_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 240)
+
+[node name="GridItem_6_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 240)
+
+[node name="GridItem_7_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 240)
+
+[node name="GridItem_8_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 240)
+
+[node name="GridItem_9_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 240)
+
+[node name="GridItem_10_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 240)
+
+[node name="GridItem_11_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 240)
+
+[node name="GridItem_12_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 240)
+
+[node name="GridItem_13_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 240)
+
+[node name="GridItem_14_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 240)
+
+[node name="GridItem_15_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 240)
+
+[node name="GridItem_16_8" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 240)
+
+[node name="GridItem_0_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 270)
+
+[node name="GridItem_1_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 270)
+
+[node name="GridItem_2_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 270)
+
+[node name="GridItem_3_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 270)
+
+[node name="GridItem_4_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 270)
+
+[node name="GridItem_5_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 270)
+
+[node name="GridItem_6_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 270)
+
+[node name="GridItem_7_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 270)
+
+[node name="GridItem_8_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 270)
+
+[node name="GridItem_9_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 270)
+
+[node name="GridItem_10_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 270)
+
+[node name="GridItem_11_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 270)
+
+[node name="GridItem_12_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 270)
+
+[node name="GridItem_13_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 270)
+
+[node name="GridItem_14_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 270)
+
+[node name="GridItem_15_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 270)
+
+[node name="GridItem_16_9" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 270)
+
+[node name="GridItem_0_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 300)
+
+[node name="GridItem_1_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 300)
+
+[node name="GridItem_2_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 300)
+
+[node name="GridItem_3_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 300)
+
+[node name="GridItem_4_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 300)
+
+[node name="GridItem_5_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 300)
+
+[node name="GridItem_6_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 300)
+
+[node name="GridItem_7_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 300)
+
+[node name="GridItem_8_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 300)
+
+[node name="GridItem_9_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 300)
+
+[node name="GridItem_10_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 300)
+
+[node name="GridItem_11_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 300)
+
+[node name="GridItem_12_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 300)
+
+[node name="GridItem_13_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 300)
+
+[node name="GridItem_14_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 300)
+
+[node name="GridItem_15_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 300)
+
+[node name="GridItem_16_10" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 300)
+
+[node name="GridItem_0_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 330)
+
+[node name="GridItem_1_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 330)
+
+[node name="GridItem_2_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 330)
+
+[node name="GridItem_3_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 330)
+
+[node name="GridItem_4_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 330)
+
+[node name="GridItem_5_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 330)
+
+[node name="GridItem_6_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 330)
+
+[node name="GridItem_7_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 330)
+
+[node name="GridItem_8_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 330)
+
+[node name="GridItem_9_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 330)
+
+[node name="GridItem_10_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 330)
+
+[node name="GridItem_11_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 330)
+
+[node name="GridItem_12_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 330)
+
+[node name="GridItem_13_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 330)
+
+[node name="GridItem_14_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 330)
+
+[node name="GridItem_15_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 330)
+
+[node name="GridItem_16_11" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 330)
+
+[node name="GridItem_0_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 360)
+
+[node name="GridItem_1_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 360)
+
+[node name="GridItem_2_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 360)
+
+[node name="GridItem_3_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 360)
+
+[node name="GridItem_4_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 360)
+
+[node name="GridItem_5_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 360)
+
+[node name="GridItem_6_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 360)
+
+[node name="GridItem_7_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 360)
+
+[node name="GridItem_8_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 360)
+
+[node name="GridItem_9_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 360)
+
+[node name="GridItem_10_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 360)
+
+[node name="GridItem_11_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 360)
+
+[node name="GridItem_12_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 360)
+
+[node name="GridItem_13_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 360)
+
+[node name="GridItem_14_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 360)
+
+[node name="GridItem_15_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 360)
+
+[node name="GridItem_16_12" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 360)
+
+[node name="GridItem_0_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 390)
+
+[node name="GridItem_1_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 390)
+
+[node name="GridItem_2_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 390)
+
+[node name="GridItem_3_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 390)
+
+[node name="GridItem_4_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 390)
+
+[node name="GridItem_5_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 390)
+
+[node name="GridItem_6_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 390)
+
+[node name="GridItem_7_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 390)
+
+[node name="GridItem_8_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 390)
+
+[node name="GridItem_9_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 390)
+
+[node name="GridItem_10_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 390)
+
+[node name="GridItem_11_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 390)
+
+[node name="GridItem_12_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 390)
+
+[node name="GridItem_13_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 390)
+
+[node name="GridItem_14_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 390)
+
+[node name="GridItem_15_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 390)
+
+[node name="GridItem_16_13" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 390)
+
+[node name="GridItem_0_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 420)
+
+[node name="GridItem_1_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 420)
+
+[node name="GridItem_2_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 420)
+
+[node name="GridItem_3_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 420)
+
+[node name="GridItem_4_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 420)
+
+[node name="GridItem_5_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 420)
+
+[node name="GridItem_6_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 420)
+
+[node name="GridItem_7_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 420)
+
+[node name="GridItem_8_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 420)
+
+[node name="GridItem_9_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 420)
+
+[node name="GridItem_10_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 420)
+
+[node name="GridItem_11_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 420)
+
+[node name="GridItem_12_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 420)
+
+[node name="GridItem_13_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 420)
+
+[node name="GridItem_14_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 420)
+
+[node name="GridItem_15_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 420)
+
+[node name="GridItem_16_14" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 420)
+
+[node name="GridItem_0_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 450)
+
+[node name="GridItem_1_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 450)
+
+[node name="GridItem_2_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 450)
+
+[node name="GridItem_3_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 450)
+
+[node name="GridItem_4_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 450)
+
+[node name="GridItem_5_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 450)
+
+[node name="GridItem_6_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 450)
+
+[node name="GridItem_7_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 450)
+
+[node name="GridItem_8_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 450)
+
+[node name="GridItem_9_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 450)
+
+[node name="GridItem_10_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 450)
+
+[node name="GridItem_11_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 450)
+
+[node name="GridItem_12_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 450)
+
+[node name="GridItem_13_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 450)
+
+[node name="GridItem_14_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 450)
+
+[node name="GridItem_15_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 450)
+
+[node name="GridItem_16_15" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 450)
+
+[node name="GridItem_0_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 480)
+
+[node name="GridItem_1_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 480)
+
+[node name="GridItem_2_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 480)
+
+[node name="GridItem_3_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 480)
+
+[node name="GridItem_4_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 480)
+
+[node name="GridItem_5_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 480)
+
+[node name="GridItem_6_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 480)
+
+[node name="GridItem_7_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 480)
+
+[node name="GridItem_8_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 480)
+
+[node name="GridItem_9_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 480)
+
+[node name="GridItem_10_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 480)
+
+[node name="GridItem_11_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 480)
+
+[node name="GridItem_12_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 480)
+
+[node name="GridItem_13_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 480)
+
+[node name="GridItem_14_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 480)
+
+[node name="GridItem_15_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 480)
+
+[node name="GridItem_16_16" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 480)
+
+[node name="GridItem_0_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 510)
+
+[node name="GridItem_1_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 510)
+
+[node name="GridItem_2_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 510)
+
+[node name="GridItem_3_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 510)
+
+[node name="GridItem_4_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 510)
+
+[node name="GridItem_5_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 510)
+
+[node name="GridItem_6_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 510)
+
+[node name="GridItem_7_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 510)
+
+[node name="GridItem_8_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 510)
+
+[node name="GridItem_9_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 510)
+
+[node name="GridItem_10_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 510)
+
+[node name="GridItem_11_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 510)
+
+[node name="GridItem_12_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 510)
+
+[node name="GridItem_13_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 510)
+
+[node name="GridItem_14_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 510)
+
+[node name="GridItem_15_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 510)
+
+[node name="GridItem_16_17" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 510)
+
+[node name="GridItem_0_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 540)
+
+[node name="GridItem_1_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 540)
+
+[node name="GridItem_2_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 540)
+
+[node name="GridItem_3_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 540)
+
+[node name="GridItem_4_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 540)
+
+[node name="GridItem_5_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 540)
+
+[node name="GridItem_6_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 540)
+
+[node name="GridItem_7_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 540)
+
+[node name="GridItem_8_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 540)
+
+[node name="GridItem_9_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 540)
+
+[node name="GridItem_10_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 540)
+
+[node name="GridItem_11_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 540)
+
+[node name="GridItem_12_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 540)
+
+[node name="GridItem_13_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 540)
+
+[node name="GridItem_14_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 540)
+
+[node name="GridItem_15_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 540)
+
+[node name="GridItem_16_18" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 540)
+
+[node name="GridItem_0_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 570)
+
+[node name="GridItem_1_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 570)
+
+[node name="GridItem_2_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 570)
+
+[node name="GridItem_3_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 570)
+
+[node name="GridItem_4_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 570)
+
+[node name="GridItem_5_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 570)
+
+[node name="GridItem_6_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 570)
+
+[node name="GridItem_7_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 570)
+
+[node name="GridItem_8_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 570)
+
+[node name="GridItem_9_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 570)
+
+[node name="GridItem_10_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 570)
+
+[node name="GridItem_11_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 570)
+
+[node name="GridItem_12_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 570)
+
+[node name="GridItem_13_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 570)
+
+[node name="GridItem_14_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 570)
+
+[node name="GridItem_15_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 570)
+
+[node name="GridItem_16_19" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 570)
+
+[node name="GridItem_0_20" parent="Blocks" instance=ExtResource("3_eltop")]
+
+[node name="GridItem_1_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 0)
+
+[node name="GridItem_2_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 0)
+
+[node name="GridItem_3_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 0)
+
+[node name="GridItem_4_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 0)
+
+[node name="GridItem_5_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 0)
+
+[node name="GridItem_6_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 0)
+
+[node name="GridItem_7_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 0)
+
+[node name="GridItem_8_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 0)
+
+[node name="GridItem_9_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 0)
+
+[node name="GridItem_10_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 0)
+
+[node name="GridItem_11_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 0)
+
+[node name="GridItem_12_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 0)
+
+[node name="GridItem_13_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 0)
+
+[node name="GridItem_14_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 0)
+
+[node name="GridItem_15_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 0)
+
+[node name="GridItem_16_20" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 0)
+
+[node name="GridItem_0_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 30)
+
+[node name="GridItem_1_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 30)
+
+[node name="GridItem_2_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 30)
+
+[node name="GridItem_3_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 30)
+
+[node name="GridItem_4_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 30)
+
+[node name="GridItem_5_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 30)
+
+[node name="GridItem_6_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 30)
+
+[node name="GridItem_7_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 30)
+
+[node name="GridItem_8_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 30)
+
+[node name="GridItem_9_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 30)
+
+[node name="GridItem_10_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 30)
+
+[node name="GridItem_11_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 30)
+
+[node name="GridItem_12_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 30)
+
+[node name="GridItem_13_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 30)
+
+[node name="GridItem_14_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 30)
+
+[node name="GridItem_15_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 30)
+
+[node name="GridItem_16_21" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 30)
+
+[node name="GridItem_0_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 60)
+
+[node name="GridItem_1_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 60)
+
+[node name="GridItem_2_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 60)
+
+[node name="GridItem_3_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 60)
+
+[node name="GridItem_4_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 60)
+
+[node name="GridItem_5_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 60)
+
+[node name="GridItem_6_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 60)
+
+[node name="GridItem_7_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 60)
+
+[node name="GridItem_8_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 60)
+
+[node name="GridItem_9_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 60)
+
+[node name="GridItem_10_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 60)
+
+[node name="GridItem_11_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 60)
+
+[node name="GridItem_12_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 60)
+
+[node name="GridItem_13_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 60)
+
+[node name="GridItem_14_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 60)
+
+[node name="GridItem_15_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 60)
+
+[node name="GridItem_16_22" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 60)
+
+[node name="GridItem_0_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 90)
+
+[node name="GridItem_1_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 90)
+
+[node name="GridItem_2_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 90)
+
+[node name="GridItem_3_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 90)
+
+[node name="GridItem_4_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 90)
+
+[node name="GridItem_5_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 90)
+
+[node name="GridItem_6_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 90)
+
+[node name="GridItem_7_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 90)
+
+[node name="GridItem_8_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 90)
+
+[node name="GridItem_9_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 90)
+
+[node name="GridItem_10_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 90)
+
+[node name="GridItem_11_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 90)
+
+[node name="GridItem_12_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 90)
+
+[node name="GridItem_13_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 90)
+
+[node name="GridItem_14_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 90)
+
+[node name="GridItem_15_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 90)
+
+[node name="GridItem_16_23" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 90)
+
+[node name="GridItem_0_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 120)
+
+[node name="GridItem_1_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 120)
+
+[node name="GridItem_2_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 120)
+
+[node name="GridItem_3_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 120)
+
+[node name="GridItem_4_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 120)
+
+[node name="GridItem_5_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 120)
+
+[node name="GridItem_6_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 120)
+
+[node name="GridItem_7_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 120)
+
+[node name="GridItem_8_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 120)
+
+[node name="GridItem_9_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 120)
+
+[node name="GridItem_10_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 120)
+
+[node name="GridItem_11_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 120)
+
+[node name="GridItem_12_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 120)
+
+[node name="GridItem_13_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 120)
+
+[node name="GridItem_14_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 120)
+
+[node name="GridItem_15_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 120)
+
+[node name="GridItem_16_24" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 120)
+
+[node name="GridItem_0_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 150)
+
+[node name="GridItem_1_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 150)
+
+[node name="GridItem_2_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 150)
+
+[node name="GridItem_3_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 150)
+
+[node name="GridItem_4_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 150)
+
+[node name="GridItem_5_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 150)
+
+[node name="GridItem_6_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 150)
+
+[node name="GridItem_7_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 150)
+
+[node name="GridItem_8_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 150)
+
+[node name="GridItem_9_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 150)
+
+[node name="GridItem_10_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 150)
+
+[node name="GridItem_11_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 150)
+
+[node name="GridItem_12_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 150)
+
+[node name="GridItem_13_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 150)
+
+[node name="GridItem_14_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 150)
+
+[node name="GridItem_15_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 150)
+
+[node name="GridItem_16_25" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 150)
+
+[node name="GridItem_0_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 180)
+
+[node name="GridItem_1_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 180)
+
+[node name="GridItem_2_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 180)
+
+[node name="GridItem_3_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 180)
+
+[node name="GridItem_4_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 180)
+
+[node name="GridItem_5_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 180)
+
+[node name="GridItem_6_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 180)
+
+[node name="GridItem_7_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 180)
+
+[node name="GridItem_8_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 180)
+
+[node name="GridItem_9_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 180)
+
+[node name="GridItem_10_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 180)
+
+[node name="GridItem_11_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 180)
+
+[node name="GridItem_12_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 180)
+
+[node name="GridItem_13_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 180)
+
+[node name="GridItem_14_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 180)
+
+[node name="GridItem_15_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 180)
+
+[node name="GridItem_16_26" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 180)
+
+[node name="GridItem_0_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 210)
+
+[node name="GridItem_1_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 210)
+
+[node name="GridItem_2_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 210)
+
+[node name="GridItem_3_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 210)
+
+[node name="GridItem_4_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 210)
+
+[node name="GridItem_5_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 210)
+
+[node name="GridItem_6_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 210)
+
+[node name="GridItem_7_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 210)
+
+[node name="GridItem_8_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 210)
+
+[node name="GridItem_9_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 210)
+
+[node name="GridItem_10_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 210)
+
+[node name="GridItem_11_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 210)
+
+[node name="GridItem_12_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 210)
+
+[node name="GridItem_13_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 210)
+
+[node name="GridItem_14_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 210)
+
+[node name="GridItem_15_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 210)
+
+[node name="GridItem_16_27" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 210)
+
+[node name="GridItem_0_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 240)
+
+[node name="GridItem_1_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 240)
+
+[node name="GridItem_2_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 240)
+
+[node name="GridItem_3_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 240)
+
+[node name="GridItem_4_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 240)
+
+[node name="GridItem_5_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 240)
+
+[node name="GridItem_6_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 240)
+
+[node name="GridItem_7_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 240)
+
+[node name="GridItem_8_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 240)
+
+[node name="GridItem_9_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 240)
+
+[node name="GridItem_10_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 240)
+
+[node name="GridItem_11_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 240)
+
+[node name="GridItem_12_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 240)
+
+[node name="GridItem_13_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 240)
+
+[node name="GridItem_14_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 240)
+
+[node name="GridItem_15_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 240)
+
+[node name="GridItem_16_28" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 240)
+
+[node name="GridItem_0_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 270)
+
+[node name="GridItem_1_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 270)
+
+[node name="GridItem_2_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 270)
+
+[node name="GridItem_3_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 270)
+
+[node name="GridItem_4_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 270)
+
+[node name="GridItem_5_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 270)
+
+[node name="GridItem_6_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 270)
+
+[node name="GridItem_7_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 270)
+
+[node name="GridItem_8_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 270)
+
+[node name="GridItem_9_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 270)
+
+[node name="GridItem_10_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 270)
+
+[node name="GridItem_11_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 270)
+
+[node name="GridItem_12_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 270)
+
+[node name="GridItem_13_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 270)
+
+[node name="GridItem_14_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 270)
+
+[node name="GridItem_15_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 270)
+
+[node name="GridItem_16_29" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 270)
+
+[node name="GridItem_0_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 300)
+
+[node name="GridItem_1_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 300)
+
+[node name="GridItem_2_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 300)
+
+[node name="GridItem_3_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 300)
+
+[node name="GridItem_4_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 300)
+
+[node name="GridItem_5_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 300)
+
+[node name="GridItem_6_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 300)
+
+[node name="GridItem_7_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 300)
+
+[node name="GridItem_8_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 300)
+
+[node name="GridItem_9_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 300)
+
+[node name="GridItem_10_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 300)
+
+[node name="GridItem_11_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 300)
+
+[node name="GridItem_12_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 300)
+
+[node name="GridItem_13_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 300)
+
+[node name="GridItem_14_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 300)
+
+[node name="GridItem_15_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 300)
+
+[node name="GridItem_16_30" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 300)
+
+[node name="GridItem_0_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 330)
+
+[node name="GridItem_1_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 330)
+
+[node name="GridItem_2_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 330)
+
+[node name="GridItem_3_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 330)
+
+[node name="GridItem_4_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 330)
+
+[node name="GridItem_5_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 330)
+
+[node name="GridItem_6_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 330)
+
+[node name="GridItem_7_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 330)
+
+[node name="GridItem_8_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 330)
+
+[node name="GridItem_9_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 330)
+
+[node name="GridItem_10_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 330)
+
+[node name="GridItem_11_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 330)
+
+[node name="GridItem_12_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 330)
+
+[node name="GridItem_13_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 330)
+
+[node name="GridItem_14_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 330)
+
+[node name="GridItem_15_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 330)
+
+[node name="GridItem_16_31" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 330)
+
+[node name="GridItem_0_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 360)
+
+[node name="GridItem_1_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 360)
+
+[node name="GridItem_2_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 360)
+
+[node name="GridItem_3_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 360)
+
+[node name="GridItem_4_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 360)
+
+[node name="GridItem_5_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 360)
+
+[node name="GridItem_6_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 360)
+
+[node name="GridItem_7_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 360)
+
+[node name="GridItem_8_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 360)
+
+[node name="GridItem_9_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 360)
+
+[node name="GridItem_10_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 360)
+
+[node name="GridItem_11_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 360)
+
+[node name="GridItem_12_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 360)
+
+[node name="GridItem_13_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 360)
+
+[node name="GridItem_14_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 360)
+
+[node name="GridItem_15_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 360)
+
+[node name="GridItem_16_32" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 360)
+
+[node name="GridItem_0_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 390)
+
+[node name="GridItem_1_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 390)
+
+[node name="GridItem_2_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 390)
+
+[node name="GridItem_3_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 390)
+
+[node name="GridItem_4_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 390)
+
+[node name="GridItem_5_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 390)
+
+[node name="GridItem_6_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 390)
+
+[node name="GridItem_7_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 390)
+
+[node name="GridItem_8_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 390)
+
+[node name="GridItem_9_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 390)
+
+[node name="GridItem_10_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 390)
+
+[node name="GridItem_11_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 390)
+
+[node name="GridItem_12_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 390)
+
+[node name="GridItem_13_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 390)
+
+[node name="GridItem_14_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 390)
+
+[node name="GridItem_15_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 390)
+
+[node name="GridItem_16_33" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 390)
+
+[node name="GridItem_0_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 420)
+
+[node name="GridItem_1_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 420)
+
+[node name="GridItem_2_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 420)
+
+[node name="GridItem_3_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 420)
+
+[node name="GridItem_4_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 420)
+
+[node name="GridItem_5_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 420)
+
+[node name="GridItem_6_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 420)
+
+[node name="GridItem_7_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 420)
+
+[node name="GridItem_8_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 420)
+
+[node name="GridItem_9_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 420)
+
+[node name="GridItem_10_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 420)
+
+[node name="GridItem_11_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 420)
+
+[node name="GridItem_12_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 420)
+
+[node name="GridItem_13_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 420)
+
+[node name="GridItem_14_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 420)
+
+[node name="GridItem_15_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 420)
+
+[node name="GridItem_16_34" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 420)
+
+[node name="GridItem_0_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 450)
+
+[node name="GridItem_1_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 450)
+
+[node name="GridItem_2_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 450)
+
+[node name="GridItem_3_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 450)
+
+[node name="GridItem_4_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 450)
+
+[node name="GridItem_5_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 450)
+
+[node name="GridItem_6_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 450)
+
+[node name="GridItem_7_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 450)
+
+[node name="GridItem_8_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 450)
+
+[node name="GridItem_9_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 450)
+
+[node name="GridItem_10_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 450)
+
+[node name="GridItem_11_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 450)
+
+[node name="GridItem_12_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 450)
+
+[node name="GridItem_13_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 450)
+
+[node name="GridItem_14_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 450)
+
+[node name="GridItem_15_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 450)
+
+[node name="GridItem_16_35" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 450)
+
+[node name="GridItem_0_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 480)
+
+[node name="GridItem_1_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 480)
+
+[node name="GridItem_2_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 480)
+
+[node name="GridItem_3_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 480)
+
+[node name="GridItem_4_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 480)
+
+[node name="GridItem_5_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 480)
+
+[node name="GridItem_6_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 480)
+
+[node name="GridItem_7_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 480)
+
+[node name="GridItem_8_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 480)
+
+[node name="GridItem_9_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 480)
+
+[node name="GridItem_10_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 480)
+
+[node name="GridItem_11_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 480)
+
+[node name="GridItem_12_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 480)
+
+[node name="GridItem_13_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 480)
+
+[node name="GridItem_14_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 480)
+
+[node name="GridItem_15_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 480)
+
+[node name="GridItem_16_36" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 480)
+
+[node name="GridItem_0_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 510)
+
+[node name="GridItem_1_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 510)
+
+[node name="GridItem_2_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 510)
+
+[node name="GridItem_3_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 510)
+
+[node name="GridItem_4_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 510)
+
+[node name="GridItem_5_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 510)
+
+[node name="GridItem_6_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 510)
+
+[node name="GridItem_7_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 510)
+
+[node name="GridItem_8_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 510)
+
+[node name="GridItem_9_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 510)
+
+[node name="GridItem_10_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 510)
+
+[node name="GridItem_11_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 510)
+
+[node name="GridItem_12_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 510)
+
+[node name="GridItem_13_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 510)
+
+[node name="GridItem_14_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 510)
+
+[node name="GridItem_15_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 510)
+
+[node name="GridItem_16_37" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 510)
+
+[node name="GridItem_0_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 540)
+
+[node name="GridItem_1_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 540)
+
+[node name="GridItem_2_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 540)
+
+[node name="GridItem_3_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 540)
+
+[node name="GridItem_4_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 540)
+
+[node name="GridItem_5_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 540)
+
+[node name="GridItem_6_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 540)
+
+[node name="GridItem_7_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 540)
+
+[node name="GridItem_8_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 540)
+
+[node name="GridItem_9_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 540)
+
+[node name="GridItem_10_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 540)
+
+[node name="GridItem_11_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 540)
+
+[node name="GridItem_12_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 540)
+
+[node name="GridItem_13_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 540)
+
+[node name="GridItem_14_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 540)
+
+[node name="GridItem_15_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 540)
+
+[node name="GridItem_16_38" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 540)
+
+[node name="GridItem_0_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 570)
+
+[node name="GridItem_1_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 570)
+
+[node name="GridItem_2_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 570)
+
+[node name="GridItem_3_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 570)
+
+[node name="GridItem_4_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 570)
+
+[node name="GridItem_5_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 570)
+
+[node name="GridItem_6_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 570)
+
+[node name="GridItem_7_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 570)
+
+[node name="GridItem_8_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 570)
+
+[node name="GridItem_9_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 570)
+
+[node name="GridItem_10_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 570)
+
+[node name="GridItem_11_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 570)
+
+[node name="GridItem_12_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 570)
+
+[node name="GridItem_13_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 570)
+
+[node name="GridItem_14_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 570)
+
+[node name="GridItem_15_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 570)
+
+[node name="GridItem_16_39" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 570)
+
+[node name="GridItem_0_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+
+[node name="GridItem_1_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 0)
+
+[node name="GridItem_2_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 0)
+
+[node name="GridItem_3_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 0)
+
+[node name="GridItem_4_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 0)
+
+[node name="GridItem_5_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 0)
+
+[node name="GridItem_6_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 0)
+
+[node name="GridItem_7_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 0)
+
+[node name="GridItem_8_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 0)
+
+[node name="GridItem_9_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 0)
+
+[node name="GridItem_10_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 0)
+
+[node name="GridItem_11_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 0)
+
+[node name="GridItem_12_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 0)
+
+[node name="GridItem_13_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 0)
+
+[node name="GridItem_14_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 0)
+
+[node name="GridItem_15_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 0)
+
+[node name="GridItem_16_40" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 0)
+
+[node name="GridItem_0_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 30)
+
+[node name="GridItem_1_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 30)
+
+[node name="GridItem_2_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 30)
+
+[node name="GridItem_3_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 30)
+
+[node name="GridItem_4_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 30)
+
+[node name="GridItem_5_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 30)
+
+[node name="GridItem_6_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 30)
+
+[node name="GridItem_7_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 30)
+
+[node name="GridItem_8_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 30)
+
+[node name="GridItem_9_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 30)
+
+[node name="GridItem_10_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 30)
+
+[node name="GridItem_11_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 30)
+
+[node name="GridItem_12_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 30)
+
+[node name="GridItem_13_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 30)
+
+[node name="GridItem_14_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 30)
+
+[node name="GridItem_15_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 30)
+
+[node name="GridItem_16_41" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 30)
+
+[node name="GridItem_0_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 60)
+
+[node name="GridItem_1_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 60)
+
+[node name="GridItem_2_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 60)
+
+[node name="GridItem_3_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 60)
+
+[node name="GridItem_4_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 60)
+
+[node name="GridItem_5_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 60)
+
+[node name="GridItem_6_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 60)
+
+[node name="GridItem_7_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 60)
+
+[node name="GridItem_8_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 60)
+
+[node name="GridItem_9_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 60)
+
+[node name="GridItem_10_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 60)
+
+[node name="GridItem_11_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 60)
+
+[node name="GridItem_12_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 60)
+
+[node name="GridItem_13_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 60)
+
+[node name="GridItem_14_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 60)
+
+[node name="GridItem_15_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 60)
+
+[node name="GridItem_16_42" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 60)
+
+[node name="GridItem_0_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 90)
+
+[node name="GridItem_1_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 90)
+
+[node name="GridItem_2_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 90)
+
+[node name="GridItem_3_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 90)
+
+[node name="GridItem_4_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 90)
+
+[node name="GridItem_5_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 90)
+
+[node name="GridItem_6_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 90)
+
+[node name="GridItem_7_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 90)
+
+[node name="GridItem_8_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 90)
+
+[node name="GridItem_9_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 90)
+
+[node name="GridItem_10_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 90)
+
+[node name="GridItem_11_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 90)
+
+[node name="GridItem_12_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 90)
+
+[node name="GridItem_13_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 90)
+
+[node name="GridItem_14_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 90)
+
+[node name="GridItem_15_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 90)
+
+[node name="GridItem_16_43" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 90)
+
+[node name="GridItem_0_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 120)
+
+[node name="GridItem_1_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 120)
+
+[node name="GridItem_2_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 120)
+
+[node name="GridItem_3_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 120)
+
+[node name="GridItem_4_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 120)
+
+[node name="GridItem_5_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 120)
+
+[node name="GridItem_6_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 120)
+
+[node name="GridItem_7_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 120)
+
+[node name="GridItem_8_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 120)
+
+[node name="GridItem_9_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 120)
+
+[node name="GridItem_10_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 120)
+
+[node name="GridItem_11_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 120)
+
+[node name="GridItem_12_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 120)
+
+[node name="GridItem_13_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 120)
+
+[node name="GridItem_14_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 120)
+
+[node name="GridItem_15_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 120)
+
+[node name="GridItem_16_44" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 120)
+
+[node name="GridItem_0_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 150)
+
+[node name="GridItem_1_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 150)
+
+[node name="GridItem_2_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 150)
+
+[node name="GridItem_3_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 150)
+
+[node name="GridItem_4_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 150)
+
+[node name="GridItem_5_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 150)
+
+[node name="GridItem_6_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 150)
+
+[node name="GridItem_7_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 150)
+
+[node name="GridItem_8_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 150)
+
+[node name="GridItem_9_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 150)
+
+[node name="GridItem_10_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 150)
+
+[node name="GridItem_11_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 150)
+
+[node name="GridItem_12_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 150)
+
+[node name="GridItem_13_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 150)
+
+[node name="GridItem_14_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 150)
+
+[node name="GridItem_15_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 150)
+
+[node name="GridItem_16_45" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 150)
+
+[node name="GridItem_0_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 180)
+
+[node name="GridItem_1_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 180)
+
+[node name="GridItem_2_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 180)
+
+[node name="GridItem_3_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 180)
+
+[node name="GridItem_4_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 180)
+
+[node name="GridItem_5_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 180)
+
+[node name="GridItem_6_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 180)
+
+[node name="GridItem_7_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 180)
+
+[node name="GridItem_8_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 180)
+
+[node name="GridItem_9_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 180)
+
+[node name="GridItem_10_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 180)
+
+[node name="GridItem_11_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 180)
+
+[node name="GridItem_12_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 180)
+
+[node name="GridItem_13_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 180)
+
+[node name="GridItem_14_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 180)
+
+[node name="GridItem_15_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 180)
+
+[node name="GridItem_16_46" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 180)
+
+[node name="GridItem_0_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 210)
+
+[node name="GridItem_1_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 210)
+
+[node name="GridItem_2_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 210)
+
+[node name="GridItem_3_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 210)
+
+[node name="GridItem_4_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 210)
+
+[node name="GridItem_5_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 210)
+
+[node name="GridItem_6_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 210)
+
+[node name="GridItem_7_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 210)
+
+[node name="GridItem_8_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 210)
+
+[node name="GridItem_9_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 210)
+
+[node name="GridItem_10_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 210)
+
+[node name="GridItem_11_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 210)
+
+[node name="GridItem_12_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 210)
+
+[node name="GridItem_13_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 210)
+
+[node name="GridItem_14_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 210)
+
+[node name="GridItem_15_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 210)
+
+[node name="GridItem_16_47" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 210)
+
+[node name="GridItem_0_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 240)
+
+[node name="GridItem_1_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 240)
+
+[node name="GridItem_2_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 240)
+
+[node name="GridItem_3_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 240)
+
+[node name="GridItem_4_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 240)
+
+[node name="GridItem_5_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 240)
+
+[node name="GridItem_6_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 240)
+
+[node name="GridItem_7_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 240)
+
+[node name="GridItem_8_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 240)
+
+[node name="GridItem_9_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 240)
+
+[node name="GridItem_10_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 240)
+
+[node name="GridItem_11_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 240)
+
+[node name="GridItem_12_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 240)
+
+[node name="GridItem_13_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 240)
+
+[node name="GridItem_14_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 240)
+
+[node name="GridItem_15_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 240)
+
+[node name="GridItem_16_48" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 240)
+
+[node name="GridItem_0_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 270)
+
+[node name="GridItem_1_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 270)
+
+[node name="GridItem_2_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 270)
+
+[node name="GridItem_3_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 270)
+
+[node name="GridItem_4_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 270)
+
+[node name="GridItem_5_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 270)
+
+[node name="GridItem_6_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 270)
+
+[node name="GridItem_7_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 270)
+
+[node name="GridItem_8_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 270)
+
+[node name="GridItem_9_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 270)
+
+[node name="GridItem_10_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 270)
+
+[node name="GridItem_11_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 270)
+
+[node name="GridItem_12_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 270)
+
+[node name="GridItem_13_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 270)
+
+[node name="GridItem_14_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 270)
+
+[node name="GridItem_15_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 270)
+
+[node name="GridItem_16_49" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 270)
+
+[node name="GridItem_0_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 300)
+
+[node name="GridItem_1_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 300)
+
+[node name="GridItem_2_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 300)
+
+[node name="GridItem_3_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 300)
+
+[node name="GridItem_4_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 300)
+
+[node name="GridItem_5_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 300)
+
+[node name="GridItem_6_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 300)
+
+[node name="GridItem_7_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 300)
+
+[node name="GridItem_8_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 300)
+
+[node name="GridItem_9_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 300)
+
+[node name="GridItem_10_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 300)
+
+[node name="GridItem_11_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 300)
+
+[node name="GridItem_12_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 300)
+
+[node name="GridItem_13_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 300)
+
+[node name="GridItem_14_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 300)
+
+[node name="GridItem_15_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 300)
+
+[node name="GridItem_16_50" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 300)
+
+[node name="GridItem_0_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 330)
+
+[node name="GridItem_1_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 330)
+
+[node name="GridItem_2_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 330)
+
+[node name="GridItem_3_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 330)
+
+[node name="GridItem_4_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 330)
+
+[node name="GridItem_5_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 330)
+
+[node name="GridItem_6_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 330)
+
+[node name="GridItem_7_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 330)
+
+[node name="GridItem_8_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 330)
+
+[node name="GridItem_9_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 330)
+
+[node name="GridItem_10_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 330)
+
+[node name="GridItem_11_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 330)
+
+[node name="GridItem_12_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 330)
+
+[node name="GridItem_13_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 330)
+
+[node name="GridItem_14_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 330)
+
+[node name="GridItem_15_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 330)
+
+[node name="GridItem_16_51" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 330)
+
+[node name="GridItem_0_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 360)
+
+[node name="GridItem_1_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 360)
+
+[node name="GridItem_2_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 360)
+
+[node name="GridItem_3_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 360)
+
+[node name="GridItem_4_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 360)
+
+[node name="GridItem_5_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 360)
+
+[node name="GridItem_6_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 360)
+
+[node name="GridItem_7_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 360)
+
+[node name="GridItem_8_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 360)
+
+[node name="GridItem_9_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 360)
+
+[node name="GridItem_10_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 360)
+
+[node name="GridItem_11_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 360)
+
+[node name="GridItem_12_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 360)
+
+[node name="GridItem_13_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 360)
+
+[node name="GridItem_14_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 360)
+
+[node name="GridItem_15_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 360)
+
+[node name="GridItem_16_52" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 360)
+
+[node name="GridItem_0_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 390)
+
+[node name="GridItem_1_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 390)
+
+[node name="GridItem_2_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 390)
+
+[node name="GridItem_3_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 390)
+
+[node name="GridItem_4_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 390)
+
+[node name="GridItem_5_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 390)
+
+[node name="GridItem_6_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 390)
+
+[node name="GridItem_7_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 390)
+
+[node name="GridItem_8_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 390)
+
+[node name="GridItem_9_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 390)
+
+[node name="GridItem_10_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 390)
+
+[node name="GridItem_11_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 390)
+
+[node name="GridItem_12_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 390)
+
+[node name="GridItem_13_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 390)
+
+[node name="GridItem_14_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 390)
+
+[node name="GridItem_15_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 390)
+
+[node name="GridItem_16_53" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 390)
+
+[node name="GridItem_0_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 420)
+
+[node name="GridItem_1_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 420)
+
+[node name="GridItem_2_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 420)
+
+[node name="GridItem_3_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 420)
+
+[node name="GridItem_4_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 420)
+
+[node name="GridItem_5_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 420)
+
+[node name="GridItem_6_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 420)
+
+[node name="GridItem_7_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 420)
+
+[node name="GridItem_8_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 420)
+
+[node name="GridItem_9_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 420)
+
+[node name="GridItem_10_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 420)
+
+[node name="GridItem_11_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 420)
+
+[node name="GridItem_12_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 420)
+
+[node name="GridItem_13_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 420)
+
+[node name="GridItem_14_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 420)
+
+[node name="GridItem_15_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 420)
+
+[node name="GridItem_16_54" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 420)
+
+[node name="GridItem_0_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 450)
+
+[node name="GridItem_1_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 450)
+
+[node name="GridItem_2_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 450)
+
+[node name="GridItem_3_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 450)
+
+[node name="GridItem_4_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 450)
+
+[node name="GridItem_5_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 450)
+
+[node name="GridItem_6_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 450)
+
+[node name="GridItem_7_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 450)
+
+[node name="GridItem_8_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 450)
+
+[node name="GridItem_9_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 450)
+
+[node name="GridItem_10_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 450)
+
+[node name="GridItem_11_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 450)
+
+[node name="GridItem_12_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 450)
+
+[node name="GridItem_13_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 450)
+
+[node name="GridItem_14_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 450)
+
+[node name="GridItem_15_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 450)
+
+[node name="GridItem_16_55" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 450)
+
+[node name="GridItem_0_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 480)
+
+[node name="GridItem_1_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 480)
+
+[node name="GridItem_2_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 480)
+
+[node name="GridItem_3_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 480)
+
+[node name="GridItem_4_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 480)
+
+[node name="GridItem_5_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 480)
+
+[node name="GridItem_6_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 480)
+
+[node name="GridItem_7_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 480)
+
+[node name="GridItem_8_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 480)
+
+[node name="GridItem_9_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 480)
+
+[node name="GridItem_10_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 480)
+
+[node name="GridItem_11_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 480)
+
+[node name="GridItem_12_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 480)
+
+[node name="GridItem_13_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 480)
+
+[node name="GridItem_14_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 480)
+
+[node name="GridItem_15_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 480)
+
+[node name="GridItem_16_56" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 480)
+
+[node name="GridItem_0_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 510)
+
+[node name="GridItem_1_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 510)
+
+[node name="GridItem_2_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 510)
+
+[node name="GridItem_3_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 510)
+
+[node name="GridItem_4_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 510)
+
+[node name="GridItem_5_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 510)
+
+[node name="GridItem_6_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 510)
+
+[node name="GridItem_7_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 510)
+
+[node name="GridItem_8_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 510)
+
+[node name="GridItem_9_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 510)
+
+[node name="GridItem_10_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 510)
+
+[node name="GridItem_11_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 510)
+
+[node name="GridItem_12_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 510)
+
+[node name="GridItem_13_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 510)
+
+[node name="GridItem_14_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 510)
+
+[node name="GridItem_15_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 510)
+
+[node name="GridItem_16_57" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 510)
+
+[node name="GridItem_0_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 540)
+
+[node name="GridItem_1_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 540)
+
+[node name="GridItem_2_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 540)
+
+[node name="GridItem_3_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 540)
+
+[node name="GridItem_4_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 540)
+
+[node name="GridItem_5_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 540)
+
+[node name="GridItem_6_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 540)
+
+[node name="GridItem_7_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 540)
+
+[node name="GridItem_8_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 540)
+
+[node name="GridItem_9_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 540)
+
+[node name="GridItem_10_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 540)
+
+[node name="GridItem_11_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 540)
+
+[node name="GridItem_12_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 540)
+
+[node name="GridItem_13_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 540)
+
+[node name="GridItem_14_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 540)
+
+[node name="GridItem_15_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 540)
+
+[node name="GridItem_16_58" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 540)
+
+[node name="GridItem_0_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(0, 570)
+
+[node name="GridItem_1_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(110, 570)
+
+[node name="GridItem_2_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(220, 570)
+
+[node name="GridItem_3_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(330, 570)
+
+[node name="GridItem_4_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(440, 570)
+
+[node name="GridItem_5_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(550, 570)
+
+[node name="GridItem_6_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(660, 570)
+
+[node name="GridItem_7_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(770, 570)
+
+[node name="GridItem_8_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(880, 570)
+
+[node name="GridItem_9_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(990, 570)
+
+[node name="GridItem_10_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1100, 570)
+
+[node name="GridItem_11_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1210, 570)
+
+[node name="GridItem_12_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1320, 570)
+
+[node name="GridItem_13_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1430, 570)
+
+[node name="GridItem_14_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1540, 570)
+
+[node name="GridItem_15_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1650, 570)
+
+[node name="GridItem_16_59" type="Node2D" parent="Blocks" instance=ExtResource("3_eltop")]
+position = Vector2(1760, 570)

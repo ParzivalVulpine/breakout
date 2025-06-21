@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://kskee85sg7ra"]
 
-[ext_resource type="Script" uid="uid://bmhkek0uc4tg7" path="res://start_menu_controller.gd" id="1_jwbto"]
+[ext_resource type="Script" uid="uid://bmhkek0uc4tg7" path="res://scripts/start_menu_controller.gd" id="1_ogdaj"]
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -9,7 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_jwbto")
+script = ExtResource("1_ogdaj")
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 1
